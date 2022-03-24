@@ -8,7 +8,7 @@ public class EnemyDemo : MonoBehaviour
     public int health = 3;
     public float speed = 3f;
     public int coins = 3;
-    //private int coinPurse = 0;
+    
 
     public List<Transform> waypointList;
     //public List<Transform> nextWayPoint;
@@ -83,9 +83,5 @@ public class EnemyDemo : MonoBehaviour
     //{
     //}
 
-  //  public void EnemyKilled(EnemyDemo deadEnemy)
-  //  {
-  //      coinPurse += deadEnemy.coins;
-  //      Destroy(deadEnemy.gameObject);
-  //  }
+ 
 }
